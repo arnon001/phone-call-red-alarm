@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+out/
+
+# Cache
+.npm
+.eslintcache
+.parcel-cache
+.cache/
+.turbo/
+
+# Coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Runtime
+pids/
+*.pid
+*.seed
+
+# Package manager lock files (keep only one)
+# yarn.lock
+# package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

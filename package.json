@@ -1,0 +1,29 @@
+{
+  "name": "phone-call-red-alarm",
+  "version": "1.0.0",
+  "description": "A bot made to tell you there is a red alarm going on in your area.",
+  "homepage": "https://github.com/arnon001/phone-call-red-alarm#readme",
+  "bugs": {
+    "url": "https://github.com/arnon001/phone-call-red-alarm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnon001/phone-call-red-alarm.git"
+  },
+  "license": "MIT",
+  "author": "Arnon Hacohen (arnon001)",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "mysql2": "^3.19.0",
+    "pikud-haoref-api": "^5.0.0",
+    "twilio": "^5.12.2"
+  }
+}
